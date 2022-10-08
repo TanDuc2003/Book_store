@@ -14,12 +14,20 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MultiProvider(
-      providers: [ChangeNotifierProvider(create: (_) => AppProvider())],
-      child: MaterialApp(
-        debugShowCheckedModeBanner: false,
-        theme: ThemeData(textTheme: textTheme),
-        home: const SpashScreen(),
-      ),
+      providers: [
+        ChangeNotifierProvider(
+          create: (_) => AppProvider(),
+        ),
+      
+      ],
+      builder: (context, child) {
+        return MaterialApp(
+          debugShowCheckedModeBanner: false,
+          theme: ThemeData(textTheme: textTheme),
+          themeMode: ThemeMode.system,
+          home: const SpashScreen(),
+        );
+      },
     );
   }
 }

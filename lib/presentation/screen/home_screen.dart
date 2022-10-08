@@ -153,6 +153,30 @@ class _HomeScreenState extends State<HomeScreen> {
               height: height / 3.4,
               child: const ViewCategories(name: "truyenma"),
             ),
+            HeadLine(
+              category: "Tiên Hiệp",
+              showAll: "tienhiep",
+            ),
+            SizedBox(
+              height: height / 3.4,
+              child: const ViewCategories(name: "tienhiep"),
+            ),
+            HeadLine(
+              category: "Kiếm Hiệp",
+              showAll: "kiemhiep",
+            ),
+            SizedBox(
+              height: height / 3.4,
+              child: const ViewCategories(name: "kiemhiep"),
+            ),
+            HeadLine(
+              category: "Truyện Teen",
+              showAll: "truyenteen",
+            ),
+            SizedBox(
+              height: height / 3.4,
+              child: const ViewCategories(name: "truyenteen"),
+            ),
             Padding(
                 padding: const EdgeInsets.fromLTRB(5, 15, 0, 15),
                 child: Shimmer.fromColors(
@@ -181,6 +205,19 @@ class _HomeScreenState extends State<HomeScreen> {
                     Categories(title: 'Lịch sử ', name: "lichsu"),
                     Categories(title: 'Giả tưởng ', name: "giatuong"),
                     Categories(title: 'Khoa học', name: "khoahoc"),
+                    Categories(title: 'Lịch sử ', name: "lichsu"),
+                    Categories(title: 'Giả tưởng ', name: "giatuong"),
+                    Categories(title: 'Tiên Hiệp', name: "tienhiep"),
+                    Categories(title: 'Ngôn Tình', name: "ngontinh"),
+                    Categories(title: 'Đô Thị', name: "dothi"),
+                    Categories(title: 'Dị Giới', name: "digioi"),
+                    Categories(title: 'Tiểu Thuyết ', name: "tieuthuyet"),
+                    Categories(title: 'Võng Du', name: "vongvu"),
+                    Categories(title: 'Xuyên Không', name: "xuyenkhong"),
+                    Categories(title: 'Trinh Thám ', name: "trinhtham"),
+                    Categories(title: 'Quân Sự', name: "quansu"),
+                    Categories(title: 'Khoa Huyễn', name: "khoahuyen"),
+                    Categories(title: 'Truyện Ma', name: "truyenma"),
                   ],
                 ),
               ),

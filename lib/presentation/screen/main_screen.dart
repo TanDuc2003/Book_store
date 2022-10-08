@@ -21,6 +21,9 @@ class _MainScreenState extends State<MainScreen> {
   bool isDeviceConnected = false;
   bool isAlertSet = false;
 
+  
+
+
   @override
   void initState() {
     getConnectivity();
