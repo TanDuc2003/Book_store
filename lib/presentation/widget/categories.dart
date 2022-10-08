@@ -34,7 +34,7 @@ class Categories extends StatelessWidget {
                   builder: (context) =>
                       BookListScreen(name: name, title: title),
                 ));
-            print("chuyển trang");
+            print("chuyển trang"); //tesst git
           },
           child: Shimmer.fromColors(
             // ignore: sort_child_properties_last
